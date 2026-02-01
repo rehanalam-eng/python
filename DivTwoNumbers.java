@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
-public class MultTwoNumbers {
+public class DivTwoNumbers {
     public static void main(String[] args) {
+
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter first number: ");
@@ -10,8 +11,8 @@ public class MultTwoNumbers {
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
 
-        int mult= a * b;
-        System.out.println(mult);
+        int div= a / b;
+        System.out.println(div);
 
         
     }
