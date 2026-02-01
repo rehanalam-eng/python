@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SubTwoNumbers {
+public class MultTwoNumbers {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -10,8 +10,8 @@ public class SubTwoNumbers {
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
 
-        int sub = a - b;
-        System.out.println(sub);
+        int mult= a * b;
+        System.out.println(mult);
 
         
     }
