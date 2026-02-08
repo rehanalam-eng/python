@@ -1,23 +1,12 @@
-import java.util.*;
-
-public class practice
-{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter first number: ");
-        int a = sc.nextInt();
-
-        System.out.print("Enter second number: ");
-        int b = sc.nextInt();
-
-        // Swapping using temp
-        int temp = a;
-        a = b;
-        b = temp;
-
-        System.out.println("After swapping:");
-        System.out.println("a = " + a);
-        System.out.println("b = " + b);
-    }
-}
+public class practice { 
+public static void main(String[] args){ 
+int x = 9, y = 12; 
+int a = 2, b = 4, c = 6; 
+ 
+ 
+int exp = 4/3 * (x + 34) + 9 * (a + b * c) + (3 + y * (2 + a)) / (a + b*y); 
+ 
+ 
+System.out.println(exp); 
+} 
+} 
